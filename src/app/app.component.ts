@@ -11,4 +11,11 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   name: string = "Dimitris";
   lastname: string = "Dananas"
+
+  person = {
+    givenName: "Dimitris",
+    surName: "Dananas",
+    age: 25,
+    email: "dimitrisdananas@aueb.gr"
+  };
 }

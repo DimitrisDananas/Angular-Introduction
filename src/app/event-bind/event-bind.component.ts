@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class EventBindComponent {
   times = 0;
-  userInput = "";
+  userInput = "Type something";
 
   increaseCounter(){
     this.times += 1;

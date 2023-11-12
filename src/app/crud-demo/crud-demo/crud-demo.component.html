@@ -1,14 +1,22 @@
 <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <!-- <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       CRUD Demo (requires JSON Server)
-    </button>
-    <ul class="dropdown-menu">
+    </button> -->
+    <!-- <ul class="dropdown-menu">
       <li><a class="dropdown-item" (click)="onSelection('create')" role="button">Create user</a></li>
       <li><a class="dropdown-item" (click)="onSelection('read')" role="button">Read user</a></li>
       <li><a class="dropdown-item" (click)="onSelection('update')" role="button">Update user</a></li>
       <li><a class="dropdown-item" (click)="onSelection('delete')" role="button">Delete user</a></li>
       <li><a class="dropdown-item" (click)="onSelection('list')" role="button">List users</a></li>
-    </ul>
+    </ul> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" (click)="onSelection('create')" role="button">Create user</a>
+        <a class="navbar-brand" (click)="onSelection('read')" role="button">Read user</a>
+        <a class="navbar-brand" (click)="onSelection('update')" role="button">Update user</a>
+        <a class="navbar-brand" (click)="onSelection('delete')" role="button">Delete user</a>
+        <a class="navbar-brand" (click)="onSelection('list')" role="button">List users</a>
+    </nav>
   </div>
 
 
